@@ -31,12 +31,12 @@
     </div>
 
     <div class="mb-3">
-      <label for="cooking_time">Tempo di cottura</label>
+      <label for="cooking_time">Serie</label>
       <input type="text" id="cooking_time" name="cooking_time">
     </div>
 
     <div class="mb-3">
-      <label for="weight">Peso</label>
+      <label for="weight">Prezzo</label>
       <input type="text" id="weight" name="weight">
     </div>
 
