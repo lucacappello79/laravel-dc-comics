@@ -2,31 +2,34 @@
 @extends('layouts/main')
 
 @section('content')
-<main class="comics">
+  <main class="comics">
+    <div class="container">
+        <div class="row">
 
-  <div class="container">
-    <div class="row">
+          @foreach ($comics as $item)
 
-      @foreach ($comics as $item)
+            <div class="col-2 card-wrapper text-center">
+                  <div class="card">
 
-        <div class="col-2 card-wrapper text-center">
-            <div class="card">
-                <img src="{{$item['thumb']}}" alt="fnf">
-                <div class="title">
-                    {{$item['title']}}
-                </div>
+                    <a href="{{ route('comics.show', $item->id) }}">
+                      <img src="{{$item->thumb}}" alt="fnf">
+                      <div class="title">
+                          {{$item->title}}
+                      </div>
+                    </a>
 
-                {{-- <div class="card">
-                  <img src="{{$item->thumb}}" alt="fnf">
-                  <div class="title">
-                      {{$item->title}}
-                  </div> --}}
+
+                      {{-- <img src="{{$item['thumb']}}" alt="fnf">
+                      <div class="title">
+                          {{$item['title']}}
+                      </div> --}}
+
+                  </div>
             </div>
+
+          @endforeach
+
         </div>
-
-      @endforeach
-
     </div>
-  </div>
-</main>
+  </main>
 @endsection
