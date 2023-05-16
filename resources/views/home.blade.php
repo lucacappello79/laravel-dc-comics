@@ -15,6 +15,12 @@
                 <div class="title">
                     {{$item['title']}}
                 </div>
+
+                {{-- <div class="card">
+                  <img src="{{$item->thumb}}" alt="fnf">
+                  <div class="title">
+                      {{$item->title}}
+                  </div> --}}
             </div>
         </div>
 

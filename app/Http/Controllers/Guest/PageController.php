@@ -9,7 +9,7 @@ class PageController extends Controller
 {
     public function index()
     {
-        $comic = config('comic');
-        return view('home', compact('comic'));
+        $comics = config('comics');
+        return view('home', compact('comics'));
     }
 }
