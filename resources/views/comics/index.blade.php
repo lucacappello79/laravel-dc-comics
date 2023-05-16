@@ -9,7 +9,12 @@
     @foreach ($comics as $item)
       <div class="col-4 comic-card">
   
-        <a href="{{route('comics.show', $item->id)}}" class="comic-card-inner">
+        {{-- <a href="{{route('comics.show', $item->['id'])}}" class="comic-card-inner">
+          <img src="{{$item->['thumb']}}" alt="fnf">
+          {{$item->['title']}}
+        </a> --}}
+
+        <a href="{{route('comics.show', ['comic' => $item->id])}}" class="comic-card-inner">
           <img src="{{$item->thumb}}" alt="fnf">
           {{$item->title}}
         </a>
