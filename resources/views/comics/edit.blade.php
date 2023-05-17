@@ -43,7 +43,7 @@
 
             <div class="mb-3">
               <label for="price" class="form-label">Prezzo</label>
-              <input type="text" id="price" name="price" class="form-control" required>
+              <input type="text" id="price" name="price" class="form-control" value="{{$comic->price}}" required>
             </div>
 
             <div class="d-grid">

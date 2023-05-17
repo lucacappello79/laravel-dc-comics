@@ -54,7 +54,7 @@
     <div class="col-6">
       <div class="create-card">
         <div class="card-header">
-          <h5 class="card-title">Aggiungi Fumetto</h5>
+          <h5 class="card-title mt-3 mb-4 text-center">Aggiungi Fumetto</h5>
         </div>
         <div class="card-body">
           <form class="text-white" action="{{ route('comics.store') }}" method="POST" class="text-dark">
