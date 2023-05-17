@@ -81,13 +81,13 @@
             </div>
 
             <div class="mb-3">
-              <label for="cooking_time" class="form-label">Serie</label>
-              <input type="text" id="cooking_time" name="cooking_time" class="form-control" required>
+              <label for="series" class="form-label">Serie</label>
+              <input type="text" id="series" name="series" class="form-control" required>
             </div>
 
             <div class="mb-3">
-              <label for="weight" class="form-label">Prezzo</label>
-              <input type="text" id="weight" name="weight" class="form-control" required>
+              <label for="price" class="form-label">Prezzo</label>
+              <input type="text" id="price" name="price" class="form-control" required>
             </div>
 
             <div class="d-grid">
