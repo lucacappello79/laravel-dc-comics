@@ -7,7 +7,7 @@
     <div class="col-6">
       <div class="create-card">
         <div class="card-header">
-          <h5 class="card-title">Aggiungi Fumetto</h5>
+          <h5 class="card-title pb-3 text-center">Modifica fumetto</h5>
         </div>
         <div class="card-body">
           <form class="text-white" action="{{route('comics.update', $comic->id)}}" method="POST" class="text-dark">
@@ -32,8 +32,8 @@
             </div>
 
             <div class="mb-3">
-              <label for="src" class="form-label">Link immagine</label>
-              <input type="text" id="src" name="src" class="form-control" value="{{$comic->src}}"required>
+              <label for="thumb" class="form-label">Link immagine</label>
+              <input type="text" id="thumb" name="thumb" class="form-control" value="{{$comic->thumb}}"required>
             </div>
 
             <div class="mb-3">

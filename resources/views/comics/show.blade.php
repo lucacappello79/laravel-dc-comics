@@ -34,7 +34,7 @@
 
 @section('content')
 
-<main class="container-fluid mt-5 text-white">
+<main class="container-fluid  text-white">
     <div class="row justify-content-center">
         <div class="col-8">
             <div class="comic-card text-center">

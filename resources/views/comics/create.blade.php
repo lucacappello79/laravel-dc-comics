@@ -75,9 +75,14 @@
               <input type="text" id="type" name="type" class="form-control" required>
             </div>
 
-            <div class="mb-3">
+            {{-- <div class="mb-3">
               <label for="src" class="form-label">Link immagine</label>
               <input type="text" id="src" name="src" class="form-control" required>
+            </div> --}}
+
+            <div class="mb-3">
+              <label for="thumb" class="form-label">Link immagine</label>
+              <input type="text" id="thumb" name="thumb" class="form-control" required>
             </div>
 
             <div class="mb-3">
@@ -91,7 +96,7 @@
             </div>
 
             <div class="d-grid">
-              <button class="btn btn-primary" type="submit">Aggiungi</button>
+              <button class="btn btn-primary mt-3" type="submit">Aggiungi</button>
             </div>
           </form>
         </div>
