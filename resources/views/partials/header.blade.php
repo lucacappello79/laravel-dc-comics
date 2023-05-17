@@ -8,11 +8,10 @@
     
     <div class="links">
       <ul>
-        <a href="{{route('homepage')}}">Home</a>
-        <li>Characters</li>
-        <li class="active">Comics</li>
+        <li><a href="{{route('homepage')}}">Home</a></li>
+        <li><a href="{{route('comics.create')}}">Create</a></li>
         <li><a href="{{route('comics.index')}}">Comics</a></li>
-        <li>Movies</li>
+        <li class="active">Movies</li>
         <li>Tv</li>
         <li>Games</li>
         <li>Collectibles</li>

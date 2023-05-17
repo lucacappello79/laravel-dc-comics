@@ -3,7 +3,7 @@
 
 @section('content')
 
-<main class="text-center">
+<main class="text-center text-white">
   <img src="{{$comic->thumb}}" alt="fnf">
 
   <hr>
