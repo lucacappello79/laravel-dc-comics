@@ -54,9 +54,14 @@
 }
 
 
+
 main {
     background-color: black;
     padding: 40px 0;
+
+    .create-card {
+        min-height: 300px;
+    }
 
     .card {
         display: flex;
