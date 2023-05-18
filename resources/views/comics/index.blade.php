@@ -32,7 +32,7 @@
                       <form method="POST" action="{{route('comics.destroy', ['comic' => $item->id])}}"  class="d-inline-block">
                         @csrf
                         @method('DELETE')
-                        <button type="submit" class="btn btn-danger">Delete</button>
+                        <button type="submit" class="btn btn-danger" onclick="return confirm('Confermi di voler cancellare questo elemento dalla libreria? Questa azione non è reversibile')">Delete</button>
                       </form>
                   </td>
               </tr>
