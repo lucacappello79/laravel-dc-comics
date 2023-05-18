@@ -81,6 +81,7 @@ class ComicController extends Controller
     {
         $formData = $request->all();
         $comic->update($formData);
+        // in teoria il save dovrebbe essere automatico ma alcune versioni di laravel lo vogliono
         $comic->save();
         return redirect()->route('comics.show', $comic->id);
     }
